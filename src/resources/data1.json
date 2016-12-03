@@ -1,0 +1,177 @@
+[
+  {
+    "name": "The Elder Scrolls V: Skyrim",
+    "genre": "RPG",
+    "platform": "Steam",
+    "played": "true",
+    "favorite": "true"
+  },
+  {
+    "name": "Pillars of Eternity",
+    "genre": "RPG",
+    "platform": "Steam",
+    "played": "true",
+    "favorite": false
+  },
+  {
+    "name": "Bioshock",
+    "genre": "RPG",
+    "platform": "Steam",
+    "played": false,
+    "favorite": false
+  },
+  {
+    "name": "Fruit Ninja",
+    "genre": "Arcade",
+    "platform": "Android",
+    "played": "true",
+    "favorite": "true"
+  },
+  {
+    "name": "Temple Run",
+    "genre": "Arcade",
+    "platform": "Android",
+    "played": false,
+    "favorite": false
+  },
+  {
+    "name": "Kingdom Rush",
+    "genre": "Strategy",
+    "platform": "Android",
+    "played": "true",
+    "favorite": false
+  },
+  {
+    "name": "Mount and Blade",
+    "genre": "RPG",
+    "platform": "PC",
+    "played": "true",
+    "favorite": false
+  },
+  {
+    "name": "Burnout: Parsdise",
+    "genre": "Racing",
+    "platform": "Steam",
+    "played": "true",
+    "favorite": "true"
+  },
+  {
+    "name": "Supreme Commander: Forged Alliance",
+    "genre": "Strategy",
+    "platform": "Steam",
+    "played": "true",
+    "favorite": "true"
+  },
+  {
+    "name": "Battle for Wesnoth",
+    "genre": "Strategy",
+    "platform": "PC",
+    "played": "true",
+    "favorite": "true"
+  },
+  {
+    "name": "Battle for Wesnoth",
+    "genre": "Strategy",
+    "platform": "Android",
+    "played": "true",
+    "favorite": false
+  },
+  {
+    "name": "Kingdom of Loathing",
+    "genre": "RPG",
+    "platform": "Web",
+    "played": "true",
+    "favorite": false
+  },
+  {
+    "name": "Bushtarion",
+    "genre": "Strategy",
+    "platform": "Web",
+    "played": "true",
+    "favorite": "true"
+  },
+  {
+    "name": "Need for Speed: Most Wanted",
+    "genre": "Racing",
+    "platform": "Origin",
+    "played": false,
+    "favorite": false
+  },
+  {
+    "name": "Radiant",
+    "genre": "Arcade",
+    "platform": "Android",
+    "played": "true",
+    "favorite": "true"
+  },
+  {
+    "name": "Unblock Me",
+    "genre": "Puzzle",
+    "platform": "Android",
+    "played": "true",
+    "favorite": false
+  },
+  {
+    "name": "Cut the Rope",
+    "genre": "Puzzle",
+    "platform": "Android",
+    "played": "true",
+    "favorite": "true"
+  },
+  {
+    "name": "Besiege",
+    "genre": "Puzzle",
+    "platform": "Steam",
+    "played": "true",
+    "favorite": "true"
+  },
+  {
+    "name": "Mass Effect 2",
+    "genre": "RPG",
+    "platform": "Origin",
+    "played": false,
+    "favorite": false
+  },
+  {
+    "name": "XCOM 2",
+    "genre": "Strategy",
+    "platform": "Steam",
+    "played": false,
+    "favorite": false
+  },
+  {
+    "name": "Civilization III",
+    "genre": "Strategy",
+    "platform": "PC",
+    "played": false,
+    "favorite": false
+  },
+  {
+    "name": "Myst",
+    "genre": "Puzzle",
+    "platform": "PC",
+    "played": "true",
+    "favorite": false
+  },
+  {
+    "name": "Command and Conquer 3",
+    "genre": "Strategy",
+    "platform": "PC",
+    "played": false,
+    "favorite": false
+  },
+  {
+    "name": "The Heist",
+    "genre": "Arcade",
+    "platform": "Web",
+    "played": "true",
+    "favorite": false
+  },
+  {
+    "name": "Mario Kart Wii",
+    "genre": "Racing",
+    "platform": "Wii",
+    "played": "true",
+    "favorite": "true"
+  }
+]

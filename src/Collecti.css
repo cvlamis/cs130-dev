@@ -1,0 +1,114 @@
+body {
+  background-color: #171A23;
+}
+
+.Collecti {
+  text-align: center;
+  color: #949CA5;
+}
+
+.Collecti-logo {
+  animation: Collecti-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.Collecti-header {
+  height: 150px;
+  padding: 20px;
+  color: #5EB1CC;
+}
+
+.Collecti-footer {
+  height: 20px;
+  padding: 20px;
+  font-size: small;
+}
+
+.Collecti-intro {
+  font-size: large;
+}
+
+@keyframes Collecti-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.favorite-sign {
+    height: 32px;
+    width: 32px;
+}
+
+.played-sign {
+    height: 32px;
+    width: 32px;
+}
+
+.Collecti-filterBox {
+  color: #D4D9DE;
+}
+
+.Collecti-resultsBox {
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .Collecti-resultsTable {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+.Collecti-resultsTable {
+  table-layout: auto;
+  border-spacing: 10px;
+  border-collapse: collapse;
+  border: 1px solid #D4D9DE;
+}
+
+.Collecti-resultsHead {
+  border-bottom: 1px solid #D4D9DE;
+  font-size: large;
+  padding: 10px;
+  color: #D4D9DE;
+}
+
+.Collecti-resultsRow {
+  border: 1px solid #D4D9DE;
+  fill: #949CA5;
+}
+
+.Collecti-resultsRow:hover {
+  background-color: #026383;
+  color: #D4D9DE;
+  fill: #D4D9DE;
+}
+
+.Collecti-resultsCell {
+  border-bottom: 1px solid #D4D9DE;
+}
+
+.Collecti-filterForm {
+  display: inline-block;
+  line-height: 1.6;
+  border: 1px solid #D4D9DE;
+  padding: 15px;
+}
+
+.Collecti-filterObject {
+  margin-left: 15px;
+}
+
+.Collecti-filterObject[type=text] {
+  width: 80%;
+}
+
+label {
+  font-weight: bold;
+  margin-left: 15px;
+  color: #5EB1CC;
+}
+
+a {
+    color: #5EB1CC;
+}

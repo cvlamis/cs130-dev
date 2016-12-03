@@ -31,8 +31,8 @@ class ResultsTable extends Component {
       }
       var played = collectable.played ? 'played' : 'unplayed';
       var favorite = collectable.favorite ? 'favorite' : 'not';
-      if ((this.props.played !== 'either' && this.props.played !== played)
-        || (this.props.favorite !== 'either' && this.props.favorite !== favorite)) {
+      if ((this.props.played !== 'both' && this.props.played !== played)
+        || (this.props.favorite !== 'both' && this.props.favorite !== favorite)) {
         return;
       }
       rows.push(<Collectable collectable={collectable} key={collectable.name+collectable.platform} />);
@@ -199,7 +199,7 @@ class FilterOptions extends Component {
           ref={(input) => this.played = input} 
           onChange={this.handleChange}
         >
-          <option value='either'>Either</option>
+          <option value='both'>Both</option>
           <option value='played'>Played</option>
           <option value='unplayed'>Unplayed</option>
         </select>
@@ -209,7 +209,7 @@ class FilterOptions extends Component {
           ref={(input) => this.favorite = input} 
           onChange={this.handleChange}
         >
-          <option value='either'>Either</option>
+          <option value='both'>Both</option>
           <option value='favorite'>Favorite</option>
           <option value='not'>Not Favorite</option>
         </select>
@@ -238,8 +238,8 @@ class Collecti extends Component {
         Web: true,
         Wii: true
       },
-      played: 'either',
-      favorite: 'either'
+      played: 'both',
+      favorite: 'both'
     }
     this.handleUserInput = this.handleUserInput.bind(this);
   }
@@ -300,7 +300,7 @@ class Collecti extends Component {
         </div>
         <div className='Collecti-footer'>
           <p>
-            Created using the Facebook Create React App template: <a href="https://github.com/facebookincubator/create-react-app">https://github.com/facebookincubator/create-react-app.</a>
+            Created using the Facebook Create React App template, <a href="https://github.com/facebookincubator/create-react-app">https://github.com/facebookincubator/create-react-app</a>, and by following Facebook's guide, <a href="https://facebook.github.io/react/docs/thinking-in-react.html">"Thinking in React"</a>.
           </p>
         </div>
       </div>
